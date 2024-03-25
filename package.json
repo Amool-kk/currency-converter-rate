@@ -2,9 +2,9 @@
   "name": "currency-converter-rate",
   "version": "0.0.1",
   "description": "",
-  "main": "./lib/index.js",
-  "module": "./lib/index.mjs",
-  "types": "./lib/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup",
     "publish": "npm run build && npm publish"
@@ -25,7 +25,12 @@
   },
   "homepage": "https://github.com/Amool-kk/currency-converter-rate#readme",
   "devDependencies": {
+    "@types/node": "^20.11.30",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "unirest": "^0.6.0"
   }
 }
