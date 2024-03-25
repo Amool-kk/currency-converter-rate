@@ -1,13 +1,12 @@
 {
   "name": "currency-converter-rate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup",
-    "publish": "npm run build && npm publish"
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
@@ -16,7 +15,12 @@
   "keywords": [
     "currency",
     "exchange",
-    "currency exchange rate"
+    "rate",
+    "converter",
+    "currency-converter",
+    "currency-exchange",
+    "real-time",
+    "google-search"
   ],
   "author": "Amool-kk <amoolkumar10@gmail.com>",
   "license": "MIT",
